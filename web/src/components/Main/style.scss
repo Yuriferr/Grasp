@@ -1,0 +1,76 @@
+.Main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: centere;
+    position: relative;
+
+    .title{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        gap: 30px;
+        margin-top: -50px;
+        margin-left: 8%;
+        padding: 150px 0;
+
+        h1{
+            font-size: 3rem;
+        }
+
+        p{
+            width: 50%;
+            font-size: 0.8rem;
+        }
+
+        button{
+            width: 150px;
+            padding: 10px 0;
+            background-color: #D907A1;
+            font-size: 1.2rem;
+            text-shadow: 0 0 15px white;
+            border: none;
+            border-radius: 20px;
+            color: white;
+            box-shadow: 0 0 60px #D907A1;
+        }
+
+        .ball{
+            margin-top: 400px;
+            width: 150px;
+            height: 150px;
+            background-image: linear-gradient(220deg, #7503A6, transparent 80%);
+            border-radius: 100%;
+        }
+    }
+
+    .objectImg{
+        margin-top: 250px;
+        width: fit-content;
+        height: fit-content;
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin-right: 8%;
+        z-index: 1;
+
+        img{
+            position: absolute;
+            width: 400px;
+            height: 500px;
+            object-fit: cover;
+            right: 0;
+            margin-right: 30px;
+            margin-top: 30px;
+        }
+
+        .fundo{
+            background-color: #7503A6;
+            width: 400px;
+            height: 500px;
+        }
+    }
+}
