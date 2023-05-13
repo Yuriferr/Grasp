@@ -10,10 +10,10 @@ export default function Main(){
             </section>
 
             <section className="links">
-                <a target="_blank" href="https://www.linkedin.com/in/yuriferr/">Linkedin</a>
-                <a target="_blank" href="https://github.com/Yuriferr">GitHub</a>
-                <a target="_blank" href="mailto:yurifernandespreto@gmail.com">Email</a>
-                <button>Click</button>
+                <a href="#about">Sobre</a>
+                <a href="#works">Trabalhos</a>
+                <a href="#contact">Contato</a>
+                <a target="_blank" href="https://github.com/Yuriferr" className="me">Yuriferr</a>
             </section>
         </header>
     )

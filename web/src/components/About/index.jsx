@@ -3,8 +3,8 @@ import './style.scss';
 
 export default function About(){
     return(
-        <div className="About">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <div id="about" className="About">
+            <p>Como artista, sou um profissional apaixonado por explorar diversas formas de expressão criativa. Minha jornada artística abrange um vasto leque de disciplinas, desde a arte digital até a escultura, fotografia e pintura. Através de cores vibrantes, formas intrigantes e texturas envolventes, busco despertar emoções e transmitir mensagens significativas em minhas obras. Minha inspiração é constantemente renovada pela beleza da natureza, pelas nuances da condição humana e pela interação entre luz e sombra. Cada peça que crio é um convite para mergulhar em um mundo de imaginação, reflexão e descoberta, onde as fronteiras entre os diferentes meios artísticos se dissipam e a liberdade criativa reina.</p>
             <div className="ball1"/>
 
             <div className="ball2"/>

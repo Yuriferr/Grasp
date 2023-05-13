@@ -1,0 +1,77 @@
+footer{
+    display: flex;
+    width: 100%;
+    height: fit-content;
+
+    .contato{
+        width: 50%;
+        height: 300px;
+        background-image: linear-gradient(220deg, #152B59, #7503A6);
+        border-top-right-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        div{
+            width: 70%;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            h1{
+                font-size: 2.5rem;
+                color: white;
+                text-align: left;
+            }
+    
+            p{
+                color: rgba(255, 255, 255, 0.7);
+                font-size: 1.2rem;
+            }
+
+            a{
+                text-align: center;
+                text-decoration: none;
+                color: white;
+                width: 110px;
+                padding: 8px 0;
+                border: none;
+                border-radius: 20px;
+                background-color: #D907A1;
+                transition: all 1s ease;
+                cursor: pointer;
+                &:hover{
+                    box-shadow: 0 0 20px #D907A1;
+                }
+            }
+        }
+    }
+
+    .links{
+        width: 50%;
+        height: 250px;
+        margin-top: 50px;
+        background-color: #262626;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        div{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            a{
+                text-decoration: none;
+                cursor: pointer;
+                color: white;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                font-size: 1.2rem;
+            }
+        }
+
+
+    }
+}
