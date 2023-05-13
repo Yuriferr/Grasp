@@ -4,9 +4,9 @@ import './style.scss'
 export default function Contact(){
     return(
         <div id="contact" className="Contact">
-            <div className="ball1"/>
-            <div className="ball2"/>
-            <form>
+            <div data-aos="fade-up" className="ball1"/>
+            <div data-aos="fade-up" className="ball2"/>
+            <form data-aos="fade-up">
                 <h1>Entre em contato</h1>
                 <section>
                     <div>

@@ -24,7 +24,7 @@ export default function Works(){
             <section className="continerArts">
                 {works.map((item, index) => {
                     return(
-                        <div key={index} className={`art${index}`}>
+                        <div data-aos="fade-up" key={index} className={`art${index}`}>
                             <img src={item.image}/>
                             <p className="title">{item.title}</p>
                             <p className="description">{item.description}</p>

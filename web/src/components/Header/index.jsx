@@ -6,7 +6,7 @@ export default function Main(){
         <header>
             <section className="logo">
                 <div className="fundo"/>
-                <p>Grasp.</p>
+                <p>ArtGlow</p>
             </section>
 
             <section className="links">

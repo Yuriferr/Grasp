@@ -5,14 +5,14 @@ export default function Main(){
     return(
         <div className="Main">
             <div className="title">
+                <div className="borda"/>
                 <div>
-                    <h1>Black Theme</h1>
-                    <h1>Only One</h1>
+                    <h1>Alexandra Stellis</h1>
                 </div>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                <button>Click</button>
+                <p>Sou Alexandra Stellis, uma artista multifacetada que transita entre os domínios da expressão visual, trazendo à vida obras que capturam a essência da emoção humana e a interação entre luz e sombra.</p>
+                <button>Conheça me</button>
 
-                <div className="ball"/>
+                <div className="ball" data-aos="fade-up"/>
             </div>
 
             <div className="objectImg">

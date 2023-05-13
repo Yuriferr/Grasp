@@ -43,6 +43,10 @@ header{
         .me{
             color: #D907A1;
             border: none;
+            transition: all 0.5s ease;
+            &:hover{
+                text-shadow: 0 0 2px #D907A1;
+            }
         }
     }
 }
